@@ -1,9 +1,13 @@
 import React from "react";
 
-import {Counter} from "./Counter";
+import { Counter } from "./Counter";
+import { GithubInfo } from "./GithubInfo";
 
 export const SiteContainer = () => {
-    return (
-        <Counter/>
-    )
-}
+  return (
+    <>
+      <GithubInfo />
+      <Counter />
+    </>
+  );
+};
